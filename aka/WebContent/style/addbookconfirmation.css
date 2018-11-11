@@ -1,0 +1,20 @@
+@charset "ISO-8859-1";
+body{
+	background: url(thankyou.jpg);
+	background-size: cover;
+	background-position: center;
+	color: black;	
+	font-size: 40px;
+	text-align: center;
+	font-family: cursive;
+	margin-top: 70px;
+}
+h1{
+	color: black;	
+	font-size: 100px;
+	font-family: "Tangerine", serif;
+}
+.welcome{
+	height: 200px;
+	font-family: serif;
+}

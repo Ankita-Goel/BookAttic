@@ -1,0 +1,116 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background:url(main.jpg);
+	background-position:center;
+	background-size:cover;
+}
+.menu
+{
+	height:45px;
+	width:auto;
+	margin:0px auto;
+	background:rgba(0,0,0,0.5);
+	border-radius:0px 0px 20px 20px ;
+}
+.menu ul
+{
+	list-style-type: none;
+}
+.menu ul li
+{
+	float:right;
+	display:inline;
+	padding:5px 15px;
+	margin-top:5px;
+}
+.menu ul li a
+{
+	color:white;
+	text-decoration: none;
+}
+.menu ul li:hover{
+	border: 1px solid white;
+}
+.menu button{
+	float:right;
+	display:inline;
+	margin:1px auto;
+	background:none;
+	border:none;
+	color: white;
+}
+.logo{
+	height:auto;
+	width: 200px;
+	margin:0px auto;
+	float:left;
+}
+.logo img
+{
+	border-radius: 50%; height:35px; width:50px; margin:5px 0px 0px 10px;
+}
+.logo span{
+	color: #32CD32;	
+	font-size: 35px;
+	font-family: "Tangerine", serif;
+	width: auto;
+	text-align:center;	
+	margin-top:0px;
+}
+.logo a{
+	text-decoration:none;
+}
+.outer
+{
+	height:500px;
+	width:auto;
+	/*border:1px solid black;*/
+	margin:0px auto;
+	text-align:center;
+}
+.slider
+{
+	height:auto;
+	width:1000px;
+	margin:20px auto 10px;
+	font-family:yellowtail;
+	font-size:40px;
+	text-align:center;
+}
+.parent{
+	text-align:center;
+	width:50%;
+	margin:0px auto;
+}
+tr{
+	width: auto;
+	height:50px;
+}
+td,th{
+	padding:0px auto;
+	height:25px;
+	width:auto;
+	font-size:23px;
+}
+
+.footer {
+	bottom: 0;
+	text-align:center;
+	background:rgba(0,0,0,0.5) ;
+	padding:10px 0px;
+	width: 100%;
+	
+}
+.footer ul li{
+	display:inline-block;
+	margin:0px 30px;
+	color:white;
+}
+.footer a{
+	text-decoration:none;
+}	

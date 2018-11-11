@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
+*{
+	margin: 0;
+	padding:0;
+}
+body{
+	background: url(main.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat:no-repeat;
+}
+.main{
+	
+	height:auto;
+	margin: 0 auto;
+}
+.topbar{
+	height:4px;
+	background-color: orange;
+}
+.panel{
+	margin-top:0px;
+	height:60px;
+	background-color:#2a2b2c; 
+	background:rgba(0,0,0,0.5);
+	width:100%;
+}
+.logo{
+	height:60px;
+	width: 200px;
+	margin:0px 10px;
+	float:left;
+}
+.book{
+		font-family: "Yellowtail";
+}
+.logo img
+{
+	border-radius: 50%; height:40px; width:50px; margin-top: 10px; margin-left: 10px;
+}
+.logo span{
+	margin-top:0px;
+	color: #32CD32;	
+	font-size: 35px;
+	font-family: "Tangerine", serif;
+	width: 100px;	
+}
+.logo a{
+	text-decoration:none;
+}
+.cart a{
+	float:right;
+	color:white;
+	padding: 3px;
+	font-size: 20px;
+	margin-top:10px;
+	margin-bottom:10px;
+	text-decoration: none;
+}
+.cart i{
+	font-size: 30px;
+	color: #32CD32;
+	padding: 2px 5px;
+}
+.nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 20px;
+}
+.nav li
+{
+	display: inline-block;
+}
+.nav li a
+{
+	color: orange;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: serif;
+	font-size: 20px;
+}
+.nav li a:hover
+{
+	border: 1px solid white;
+}
+
+.search-container {
+  float: right;
+  margin: 20px 0px;
+  display:block;
+  width:auto;
+  height:30px;
+}
+.search-container input{
+  padding: 3px;
+  background:white;
+  text-align:left;
+  font-size: 15px;
+  color: black;
+  width:300px;
+  height:auto;
+}
+.search-container button {
+  float: right;
+  padding: 5px 10px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color:white;
+  border:1px solid white;
+  margin-right:10px;
+ }
+.search-container button:hover {
+  background: #d7d7c1;
+  border:1px solid #d7d7c1;
+}
+
+.menubar {
+	/*margin-top:0px;*/
+	width :100%;
+	float: left;
+}
+.menubar li{
+	display: inline-block;
+}
+.menubar li a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	padding:2px 10px;
+}
+.parent{
+	width:100%;
+	height:100%;
+	margin:0px auto;
+}
+.child1{
+	width:40%;
+	height:80%;
+	float:left;
+	text-align:center;
+}
+.child1 img{
+	width:50%;
+	height:60%;
+	margin: 50px auto;
+}
+.child2 button{
+	width: 100px;
+	height: 30px;
+	font-family: arial black;
+	text-align: center;
+	padding:10px auto;
+	margin:0px auto;
+}
+.child2{
+	width:60%;
+	height:80%;
+	float:right;
+	text-align:center;
+}	
+tr{
+	font-size: 20px;
+	width: 100%;
+	height:40px;
+	
+}
+td{
+	
+	padding:0px auto;
+	height:30px;
+	width:auto;
+}
+.category{
+	padding:0px 0px;
+	height:30px;
+	width:auto;
+	float:left;
+	font-size:20px;
+}
+.info{
+	padding:0px auto;
+	height:30px;
+	width:auto;
+	float:left;
+	font-size:20px;
+}
+.vdeatil{
+	font-size:20px;
+}
+.purchase p{
+	font-size:30px;
+	color:#0000a0;
+	font-family:yellowtail;
+	text-align:left;
+}

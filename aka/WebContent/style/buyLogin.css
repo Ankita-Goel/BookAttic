@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
+*{
+	margin:0px;
+	padding:0px;
+}
+body
+{ 
+	margin: 0;
+	padding: 0;
+	background: url(main.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.menu
+{
+	height:45px;
+	width:auto;
+	margin:0px auto;
+	background:rgba(0,0,0,0.5);
+	border-radius:0px 0px 20px 20px ;
+}
+.menu ul
+{
+	list-style-type: none;
+}
+.menu ul li
+{
+	float:right;
+	display:inline;
+	padding:5px 15px;
+	margin-top:5px;
+}
+.menu ul li a
+{
+	color:white;
+	text-decoration: none;
+}
+.menu ul li:hover{
+	border: 1px solid white;
+}
+.logo{
+	height:auto;
+	width: 200px;
+	margin:0px auto;
+	float:left;
+}
+.logo img
+{
+	border-radius: 50%; height:35px; width:50px; margin:5px 0px 0px 10px;
+}
+.logo span{
+	color: #32CD32;	
+	font-size: 35px;
+	font-family: "Tangerine", serif;
+	width: auto;
+	text-align:center;	
+	margin-top:0px;
+}
+.logo a{
+	text-decoration:none;
+}
+.loginstyle{
+	text-align: center;
+	color: black;
+	width:auto;
+	height: auto;
+	margin: 0px auto;
+}
+.avatar{
+border-radius: 50%; height:100px; width:100px;
+
+}
+h1
+{
+	color: #800040;	
+	font-size: 60px;
+	text-align: center;
+	font-family: "Tangerine", serif;
+	margin:10px auto;
+}
+input{
+	width: 300px;
+	height: 40px;
+	border-radius: 20px;
+	font-size: 20px;
+	text-align: center;
+}
+select{
+	width: 155px;
+	height:30px;
+	border-radius: 20px;
+	text-align: center;
+	font-family: serif;
+	font-size: 20px;
+}
+input#btn{
+	border-radius: 20px;
+	background-color: #87def8;
+	width: 200px;
+	font-family: times new roman;
+}
+input#btn:hover{
+	cursor:pointer;
+}
+.Register{
+	text-align: center;
+}
+h4{
+	color: black;	
+	font-family:serif;
+    font-size: 20px;
+    padding-bottom:10px; 
+}
+.Register a{
+	border: solid black 1px;
+	background-color:none;
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 20px;
+	font-family:serif;
+	color: black;
+	text-decoration: none;
+}

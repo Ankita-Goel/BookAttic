@@ -1,0 +1,111 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background:url(main.jpg);
+	background-position:center;
+	background-size:cover;
+}
+.menu
+{
+	height:45px;
+	width:auto;
+	margin:0px auto;
+	background:rgba(0,0,0,0.5);
+	border-radius:0px 0px 20px 20px ;
+}
+.menu ul
+{
+	list-style-type: none;
+}
+.menu ul li
+{
+	float:right;
+	display:inline;
+	padding:5px 15px;
+	margin-top:5px;
+}
+.menu ul li a
+{
+	color:white;
+	text-decoration: none;
+}
+.menu ul li:hover{
+	border: 1px solid white;
+}
+.menu button{
+	float:right;
+	display:inline;
+	margin:1px auto;
+	background:none;
+	border:none;
+	color: white;
+}
+.logo{
+	height:auto;
+	width: 200px;
+	margin:0px auto;
+	float:left;
+}
+.logo img
+{
+	border-radius: 50%; height:35px; width:50px; margin:5px 0px 0px 10px;
+}
+.logo span{
+	color: #32CD32;	
+	font-size: 35px;
+	font-family: "Tangerine", serif;
+	width: auto;
+	text-align:center;	
+	margin-top:0px;
+}
+.logo a{
+	text-decoration:none;
+}
+.registerstyle{
+	text-align: center;
+	color: black;
+	width:50%;
+	height: auto;
+	margin: 0px auto;
+}
+h1{
+	color: black;	
+	font-size: 50px;
+	text-align: center;
+	font-family: yellowtail;
+	margin: 30px 0px 0px 0px;
+}
+.line{
+	color: black;
+	font-size:30px;
+	margin:20px 10px;
+	height:auto;
+	text-align:left;
+}
+label{
+	width:200px;
+	font-size: 25px;
+}
+input{
+	width: 300px;
+	height: auto;
+	font-size: 20px;
+	color: black;
+	padding:5px;
+}
+.registerstyle button{
+	width: 150px;
+	height: 40px;
+	font-family: arial black;
+	font-size:20px;
+	text-align: center;
+	padding:0px;
+	margin:10px auto;
+}
+.registerstyle button:hover{
+	cursor:pointer;
+}
